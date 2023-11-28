@@ -1,1 +1,4 @@
 res://Scenes/main.tscn
+res://Scripts/level_definitions.gd
+res://Scenes/fire.tscn
+res://Scenes/ball.tscn
