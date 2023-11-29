@@ -39,7 +39,7 @@ func _physics_process(delta):
 	if (!collision):
 		return
 		
-	fire.rotation += fire_rotation * delta
+	#fire.rotation += fire_rotation * delta
 	var collider =  collision.get_collider()
 	if collider is Brick:
 		collider.decrease_level()
